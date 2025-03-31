@@ -99,7 +99,11 @@ class _LoginScreenState extends State<LoginScreen> {
                         text: "Log In",
                           onPressed: (){
                           print("Log IN");
-                          loginUser();
+                          // loginUser();
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => HomeScreen()),
+                          );
                         },
                         ),
                       ),

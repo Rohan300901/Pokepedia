@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:pokepedia/screens/login_screen.dart';
 
 void main() async{
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  // WidgetsFlutterBinding.ensureInitialized();
+  // await Firebase.initializeApp();
   runApp(Pokedex());
 }
 
